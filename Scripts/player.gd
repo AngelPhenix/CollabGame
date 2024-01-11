@@ -2,6 +2,7 @@ extends Node2D
 
 var hp_max: int = 250
 var inventory: Array = []
+var experience = 20
 var mp_max: int = 50
 
 # Called when the node enters the scene tree for the first time.
