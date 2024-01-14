@@ -5,7 +5,7 @@ var inventory: Array = []
 var experience = 20
 var mp_max: int = 50
 
-var speed: int = 80
+var speed: int = 350
 var velocity: Vector2
 
 func _physics_process(delta: float) -> void:
@@ -18,5 +18,5 @@ func get_input() -> void:
 	velocity.y = -int(Input.is_action_pressed("ui_up")) + int(Input.is_action_pressed("ui_down"))
 
 func _input(event: InputEvent) -> void:
-
+	# Function to hold other actions like pressing "E" to interact with NPCs, chests, etc
 	pass

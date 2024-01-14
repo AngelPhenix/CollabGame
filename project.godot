@@ -11,7 +11,12 @@ config_version=4
 [application]
 
 config/name="CollabGamez"
+run/main_scene="res://World/Stage1.tscn"
 config/icon="res://icon.png"
+
+[debug]
+
+settings/physics_interpolation/enable_warnings=false
 
 [gui]
 
